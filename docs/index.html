@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
+    <script type="module" crossorigin src="/draw-map-boundaries/assets/index-4SXsZZQJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/draw-map-boundaries/assets/index-hUNJ8DKr.css">
+  </head>
+
+  <body>
+    <main>
+      <div class="example" id="leaflet-map"></div>
+      <div class="metadata">
+        <h2>Create GeoJSON for Shapes</h2>
+        <p>
+          Draw shapes on the map. Download the results as a GeoJSON file by
+          clicking the "Download GeoJSON" button at the bottom.
+        </p>
+        <div class="geojson">
+          <div class="geojson-container"></div>
+          <button class="download">Download GeoJSON</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="menu">
+      <button id="polygon">Polygon</button>
+      <!-- <button id="freehand">Freehand</button> -->
+      <button id="circle">Circle</button>
+      <button id="rectangle">Rectangle</button>
+
+      <button id="clear">Clear</button>
+    </div>
+  </body>
+</html>
