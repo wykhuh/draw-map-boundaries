@@ -66,9 +66,9 @@ let userGeoJSON = {};
 
 const example = {
   geojson: {},
-  lng: -118.4,
-  lat: 34,
-  zoom: 12,
+  lng: -118.289,
+  lat: 34.017,
+  zoom: 13,
   initLeaflet(id) {
     const { lng, lat, zoom } = this;
 
